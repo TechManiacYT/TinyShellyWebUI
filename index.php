@@ -66,6 +66,9 @@ if ( $devtype=="shellyrgbw2_white3" ) {
 
 <table border=0>
 <th colspan=2>Haus</th>
+
+
+
 <tr>
 <td><a href="http://192.168.200.50">Haupttreppe</a></td>
 <td>
@@ -90,6 +93,8 @@ print("
 </tr>
 
 
+
+
 <tr>
 <td><a href="http://192.168.200.51">Hof Strahler</a></td>
 <td>
@@ -112,6 +117,9 @@ print("
 ?>
 </td>
 </tr>
+
+
+
 
 <tr>
 <td><a href="http://192.168.200.52">Keller Hinten</a></td>
@@ -163,7 +171,13 @@ print("
 </td>
 </tr>
 
+
+
+
 <th colspan=2>Kiera</th>
+
+
+
 
 <tr>
 <td><a href="http://192.168.200.60">Wandlampe 1</a></td>
@@ -189,7 +203,11 @@ print("
 </tr>
 
 
+
+
 <th colspan=2>Dachboden</th>
+
+
 
 <tr>
 <td><a href="http://192.168.200.80">Arbeitsbereich</a></td>
@@ -215,6 +233,8 @@ print("
 </tr>
 
 
+
+
 <tr>
 <td><a href="http://192.168.200.80">T&uuml;r</a></td>
 <td>
@@ -237,6 +257,8 @@ print("
 ?>
 </td>
 </tr>
+
+
 
 
 <tr>
@@ -264,6 +286,8 @@ print("
 
 
 
+
+
 <tr>
 <td><a href="http://192.168.200.80">Bad Decke</a></td>
 <td>
@@ -288,6 +312,8 @@ print("
 </tr>
 
 
+
+
 <tr>
 <td><a href="http://192.168.200.81">Bad Spiegel</a></td>
 <td>
@@ -310,10 +336,6 @@ print("
 ?>
 </td>
 </tr>
-
-
-
-
 
 
 
