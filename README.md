@@ -64,4 +64,8 @@ The shelly device types currently supported
 
 DONE ;-)
 =======
->>>>>>> 1665e309054a96c77f72b296c045589fd44c188f
+
+## Open ToDo's
+
+* implement shelly2 0/1/2 - style switching
+* implement dimmer increase/decrease
