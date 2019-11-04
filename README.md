@@ -24,31 +24,34 @@ The table never shows what it thinks the status of a switch is, it asks the shel
 * Install apache+php and the php curl modules
 * Enter the devices in the index.php like shown in the example below
 * DONE
+<<<<<<< HEAD
 
 ## Edit the index.php file
 
-'<tr>'
-'<td><a href="http://192.168.200.81">Bad Spiegel</a></td>'  <-- Add your shelly IP and some for the device here
-'<td>'
-'<?php' 
-'$shelly_ison="off";$checked=""; $devtype="shellyrgbw2_white0"; $ip="192.168.200.81"; $setstate="on";'  <--- set the shelly type and IP adress again
-'include('shelly_status.php');'
-'if ( $shelly_ison=="on" ) { $checked="checked=\"checked\""; $setstate="off";}'
-' '
-'print("'
-'<form method=\"POST\" action=\"index.php\" >'
-'<label class=\"switch\">'
-'  <input type=\"checkbox\"  name=\"button\" value=\"1\" $checked onChange=\"this.form.submit()\" > </input>'
-'    <span class=\"slider round\"></span>'
-'  <input type=\"hidden\" name=\"ip\" value=\"$ip\"></input>'
-'  <input type=\"hidden\" name=\"devtype\" value=\"$devtype\"></input>'
-'  <input type=\"hidden\" name=\"setstate\" value=\"$setstate\"></input>'
-'</label>'
-'</form>'
-'");'
-'?>'
-'</td>'
-'</tr>'
+```
+<tr>
+<td><a href="http://192.168.200.81">Bad Spiegel</a></td>  <-- Add your shelly IP and some for the device here
+<td>
+<?php' 
+$shelly_ison="off";$checked=""; $devtype="shellyrgbw2_white0"; $ip="192.168.200.81"; $setstate="on";  <--- set the shelly type and IP adress again
+include('shelly_status.php');
+if ( $shelly_ison=="on" ) { $checked="checked=\"checked\""; $setstate="off";}
+ 
+print("
+<form method=\"POST\" action=\"index.php\" >
+<label class=\"switch\">
+  <input type=\"checkbox\"  name=\"button\" value=\"1\" $checked onChange=\"this.form.submit()\" > </input>
+    <span class=\"slider round\"></span>
+  <input type=\"hidden\" name=\"ip\" value=\"$ip\"></input>
+  <input type=\"hidden\" name=\"devtype\" value=\"$devtype\"></input>
+  <input type=\"hidden\" name=\"setstate\" value=\"$setstate\"></input>
+</label>
+</form>
+");
+?>
+</td>
+</tr>
+```
 
 The shelly device types currently supported
 
@@ -60,3 +63,5 @@ The shelly device types currently supported
 
 
 DONE ;-)
+=======
+>>>>>>> 1665e309054a96c77f72b296c045589fd44c188f
